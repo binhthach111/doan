@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thời Trang Nam</title>
+	<meta chaset="utf8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-3.3.1.min.js">
+</head>
+<style type="text/css">
+#cf1 {
+	background: #252525;
+	height: 35px;
+}
+.col1{
+	position: relative;
+	float: left;
+	border-right: solid #fff 1px;
+	top:10px;
+	color: #fff;
+	font-size: 12px;
+}
+.col2{
+	position: relative;
+	float: left;
+	top: 10px;
+	color: #fff;
+	font-size: 12px;
+}
+.col3{
+	position: relative;
+	float: left;
+	top: 10px;
+	color: red;
+	font-size: 12px;
+}
+.container-fluid  .a1{
+	color: #fff ;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	top: 10px;
+	font-size: 12px;
+	margin-right: 15px;
+}
+#cf2{
+background: #B2B2B2;
+}
+#cn1{
+}
+.form-control{
+	position: relative;
+	top:15px;
+	float: left;
+	width: 80%;
+}
+#cf2 #cn1 .btn-primary{
+	top:15px;
+	position: relative;
+	float: left;
+	background: green;
+}
+#cf2 #cn1 .li_cart #btn1{
+	font-size: 20px;
+	background: #EC4445;
+	color: white;
+	position: relative;
+	float: left;
+	height: 35px;
+	top: 15px;
+
+}
+#cf2 #cn1 li{
+	display: block;
+}
+#cf2 #cn1 li ul{
+	display: none;
+}
+
+#cf2 #cn1 li:hover ul{
+	display: block;
+	position: absolute;
+
+}
+
+#cf2 #cn1 .li_cart .ul_cart a{
+	text-decoration: none;
+	color: green;
+}
+#cf2 #cn1 .li_cart .ul_cart .div-cart #btn2{
+	background: green;
+	position: absolute;
+	left: 30%;
+	top: 85%;
+}
+.div-cart{
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	border: solid #A6A1A1 1px;
+	background: #fff;
+	text-align: center;
+	top: 85px;
+	left: 70%;
+	overflow: visible;
+}
+
+#cn2 .menu li{
+	display: block;
+	float: left;
+}
+
+</style>
+<body>
+	<div class="container-fluid" id="cf1">
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">		
+			<div class="col1">Default welcome message &nbsp;&nbsp;</div>
+			<div class="col2">&nbsp;&nbsp;<i class="fas fa-phone-volume"></i>&nbsp;Call support free: </div>
+			<div class="col3">&nbsp;123 456 789</div>
+		</div>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			
+		</div>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+			<a class="a1" href="#">My accout</a>
+			<a class="a1" href="#">My list</a>
+			<a class="a1" href="#">Cart</a>
+			<a class="a1" href="#">Login</a>
+		</div>
+	</div>
+	<div class="container-fluid" id="cf2">
+		<div class="container" id=cn1>
+			<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+				<img src="img/logo.JPG" alt="placeholder+image">
+			</div>
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<input placeholder="Nhập vào tìm kiếm" type="search" name="" id="input" class="form-control" value="" required="required" title="">
+				<button type="button" class="btn btn-primary"><i class="fas fa-search"></i></button>
+			</div>
+			<!--*********** gio hang **********-->
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<li class="li_cart"><button type="button" class="btn btn-default" id="btn1"><i class="fas fa-cart-plus"></i></button>
+					<ul class="ul_cart">
+						<div class="div-cart">
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+							Sản phẩm 1<br>
+						<button type="button" class="btn btn-default" id="btn2">Xem giỏ hàng</button>
+						</div>
+					</ul>
+				</li>
+			</div>
+		</div>
+		<div class="container-fluid" id="cn2">
+			<div class="menu">
+				<li class="#">Trang Chủ</li>
+				<li>Thể Loại
+					<ul>Xuân</ul>
+					<ul>Hạ</ul>
+					<ul>Thu</ul>
+					<ul>Đông</ul>
+				</li>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
